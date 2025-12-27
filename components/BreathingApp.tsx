@@ -5,7 +5,9 @@ const BreathingApp: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [isBreathing, setIsBreathing] = useState(false);
   const [phaseText, setPhaseText] = useState('START');
-  const requestRef = useRef<number>(null);
+  
+  // Fix: explicitly type refs as mutable or nullable
+  const requestRef = useRef<number | null>(null);
   const startTimeRef = useRef<number>(0);
 
   const minRadius = 50;
