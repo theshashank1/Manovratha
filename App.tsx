@@ -498,7 +498,7 @@ const App: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-12">
               <div className="lg:col-span-5 bg-teal-700 p-12 md:p-16 text-white flex flex-col justify-between">
                 <div><h2 className="text-4xl font-bold mb-8 font-serif leading-tight">Join the Sanctuary Hub.</h2></div>
-                <button onClick={() => window.open('https://wa.me/919701782182', '_blank')} className="w-full bg-white text-teal-800 font-black uppercase text-xs tracking-widest py-5 rounded-2xl hover:bg-teal-50 transition flex items-center justify-center gap-3 shadow-xl active:scale-95">
+                <button onClick={() => window.open('https://wa.me/916281789724', '_blank')} className="w-full bg-white text-teal-800 font-black uppercase text-xs tracking-widest py-5 rounded-2xl hover:bg-teal-50 transition flex items-center justify-center gap-3 shadow-xl active:scale-95">
                   <i className="fab fa-whatsapp text-xl"></i> Join Pro Network
                 </button>
               </div>
