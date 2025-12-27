@@ -1,0 +1,7 @@
+{
+  "name": "Monovratha Accepted site",
+  "description": "A comprehensive mental health ecosystem featuring professional networking, interactive wellness tools, and AI-driven support.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
